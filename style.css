@@ -1,0 +1,85 @@
+body {
+    background: #fafafa;
+    font-family: Manrope, Arial, sans-serif;
+    color: #141414;
+}
+.main {
+    position: relative;
+    margin: 3% auto;
+    background-image: url('./images/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 10px 15px #8f8f8f;
+    width: 992px;
+    height: 852px;
+}
+a {
+    text-decoration: none;
+    color: #141414;
+    font-size: 13px;
+}
+a:hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+    transition-property: transform;
+}
+.button-demo {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    line-height: 1.3888888889;
+    margin-top: 25px;
+    padding: 11px 25px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 5;
+    background: #ffd101;
+    border: 2px solid #141414;
+    border-radius: 20px;
+}
+.button-demo:hover {
+    background-color: #4500a6;
+    border-color: #4500a6;
+    color: #fff;
+}
+.wheel {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    margin: 200px 10px 10px 226px;
+}
+.one {
+    margin: 80px 100px 45px;
+}
+.two {
+    margin: 45px 32px;
+}
+.three {
+    margin: 45px 15px 45px 10px;
+}
+.four {
+    margin: 45px 32px 45px 35px;
+}
+.five {
+    margin: 45px 120px 0px;
+}
+.six {
+    margin: 0px 100px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+/* Fonts */
+.manrope-db {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
